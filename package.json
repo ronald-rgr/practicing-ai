@@ -1,0 +1,26 @@
+{
+  "name": "learning-ai",
+  "version": "1.0.0",
+  "description": "# call the speech API curl -s -X POST -H \"Content-Type: application/json\" --data-binary @request.json \\ \"https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}\"",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/speech": "^2.1.0",
+    "@google-cloud/storage": "^2.0.0",
+    "node-record-lpcm16": "^0.3.0",
+    "yargs": "^12.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronald-garcia/learning-ai.git"
+  },
+  "author": "Ronald Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronald-garcia/learning-ai/issues"
+  },
+  "homepage": "https://github.com/ronald-garcia/learning-ai#readme"
+}
