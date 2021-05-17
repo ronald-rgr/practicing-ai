@@ -1,0 +1,5 @@
+SELECT university_name, university_phone, university_address, person_name  FROM assignment5.universities_near_person WHERE person_name = 'Ron Garcia' AND distance_km < 100 ALLOW FILTERING;
+SELECT university_name, university_phone, university_address  FROM assignment5.universities_near_person WHERE university_name = 'University of Victoria' ALLOW FILTERING;
+SELECT person_name FROM assignment5.universities_near_person WHERE university_name = 'University of Victoria' AND distance_km < 100 ALLOW FILTERING;
+SELECT * FROM assignment5.available_courses_by_registration_date WHERE university_name = 'University of Victoria' AND is_available = true ALLOW FILTERING;
+SELECT person_name, person_phone, person_address FROM assignment5.universities_near_person WHERE person_name = 'Ron Garcia' ALLOW FILTERING;
