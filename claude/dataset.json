@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a regular expression to validate an AWS S3 bucket name (lowercase letters, numbers, hyphens, 3-63 characters long)",
+    "format": "regex",
+    "solution_criteria": "Matches valid S3 bucket naming conventions, prevents special characters, enforces length constraints"
+  },
+  {
+    "task": "Write a Python function to convert an AWS resource ARN into its component parts (service, region, account ID, etc.)",
+    "format": "python",
+    "solution_criteria": "Correctly parses different ARN formats, returns a dictionary with standard ARN components"
+  },
+  {
+    "task": "Create a JSON configuration for an AWS Lambda function's basic CloudFormation resource definition",
+    "format": "json",
+    "solution_criteria": "Includes required properties like runtime, handler, code location, and basic execution role"
+  }
+]
